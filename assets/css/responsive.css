@@ -1,0 +1,66 @@
+@media(min-width:992px) and (max-width:1199.98px){
+    #about_us .container p {
+        font-size: 25px;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    #about_us .container p {
+        font-size: 21px;
+    }
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .banner_content h1 {
+        font-size: 30px;
+        
+    }
+    .banner_content p {
+        font-size: 19px;
+    }
+    .banner_content a {
+        font-size: 15px;
+    }
+    #contact .container .follow_us {
+        right: 19%;
+    }
+    #about_us .container p {
+        font-size: 18px;
+
+    }
+    @media(max-width:575px) {
+        .banner_content h1 {
+            font-size: 21px;
+        }
+        .banner_content p {
+            font-size: 13px;
+        }
+        .banner_content a {
+            font-size: 9px;
+            padding: 5px 8px;
+            margin: 56px 19px;
+
+        }
+        #banner {
+            height: 450px;
+        }
+        #about_us .container i {
+            font-size: 20px;
+        }
+        #contact .container .follow_us i {
+            font-size: 10px;
+        }
+        #contact .container .follow_us h3 {
+            font-size: 17px;
+        }
+        #contact .container .follow_us {
+            bottom: 13%;
+            right: 0%;
+        }
+        #contact .container h3 {
+            font-size: 14px;
+        }
+        #contact .container p {
+            font-size: 11px;
+        }
+    }
+
+}

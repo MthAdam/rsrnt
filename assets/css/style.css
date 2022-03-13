@@ -1,0 +1,199 @@
+/* commor css start */
+h1,h2,h3,h4,h5,h6,
+p,
+span{
+    margin:0;
+    padding:0
+}
+a,a:hover{
+    text-decoration:none;
+}
+ul{
+    list-style-type:none;
+}
+body{
+    font-family:'Hind', sans-serif;
+}
+nav,h1,h2,h3,h4,h5,h6{
+    font-family:'Expletus Sans', cursive;
+}
+h2{
+    color:#fff;
+    font-size:32px;
+    padding:40px 0;
+    text-align:center;
+}
+section{
+    background-color:#692B2B;
+}
+/* commor css end// */ 
+/* nav css start */
+nav{
+    background-color:#692B2B;
+    
+}
+nav .container a p{
+    color:#fff;
+    font-size:32px;
+}
+nav #main_menu ul li a{
+    color:#fff;
+    font-size:20px;
+    padding:0 30px;
+}
+
+/* nav css end// */     
+/* banner css start */
+#banner{
+    background-image:url(../img/Urban_skyscraper_western_restaurant_night_view_1366x768.jpg);
+    width:100%;
+    height:800px;
+    background-size:cover;
+    background-repeat:no-repeat;   
+}
+.banner_content {
+	padding-top: 90px;
+	margin-left: 10%;
+}
+.banner_content h1{
+    font-size:44px;
+    color:#fff;
+    font-weight:700;
+}
+.banner_content p{
+    font-size:26px;
+    color:#fff;
+    font-weight:600;
+    padding:45px 0;
+}
+.banner_content a{
+    font-size:22px;
+    color:#fff;
+    font-weight:600;
+    padding:8px 10px;
+    margin:56px 45px;
+    border:1px solid #692B2B;
+    background-color:#692B2B;
+}
+/* banner css end// */
+/* menu  css start */
+#menu{
+    background-color:#692B2B;
+}
+#menu h2{
+    text-align:center;
+}
+#menu .menu_item img{
+    width:100%;
+}
+#menu .menu_item p{
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+}
+#menu .menu_item p.small{
+    font-size:15px;
+    text-transform:uppercase;
+}
+#menu .menu_item .last_img {
+	padding-top: 7.8%;
+	height: 100px;
+}
+
+/* menu  css end// */
+/* location css start */
+#location{
+    background-color:#692B2B;
+}
+/* location css end// */
+/* about_us css start */
+#about_us{
+    
+}
+#about_us .salt_bae{
+    height:800px;
+    width:100%;
+}
+#about_us .container p{
+    font-size:29px;
+    color:#fff;
+    text-align:center;
+    font-weight:400;
+}
+#about_us .container .salt{
+    font-size:29px;
+    text-align:right;
+    padding-top:10px;
+    padding-right:20px;
+
+}
+#about_us .container i{
+    border:1px solid #FFD2A8;
+    padding:10px;
+    border-radius:50%;
+    background-color:#FFD2A8;
+    margin:0 10px;
+    cursor:pointer;
+
+}
+#about_us .container .icon{
+    text-align: right;
+    padding-top:20px;
+    
+}
+/* about_us css end// */
+/* contact css start */
+#contact{
+    position:relative;
+}
+#contact> p{
+    font-size:25px;
+    color:#fff;
+    text-align:center;
+}
+#contact .con_item{
+    padding-top:30px;
+}
+#contact .container p {
+	font-size: 15px;
+	color: #fff;
+	text-align:center;
+	padding-bottom: 20px;
+}
+#contact .container h3{
+    font-size:20px;
+    color:#fff;
+}
+#contact .container .para p {
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#contact .container  p {
+	font-size: 15px;
+	color: #fff;
+	text-align: left;
+	padding-bottom: 20px;
+}
+#contact .container .follow_us h3 {
+	font-size: 27px;
+	color: #fff;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+#contact .container .follow_us i{
+    border:1px solid #FFD2A8;
+    padding:10px;
+    border-radius:50%;
+    background-color:#FFD2A8;
+    margin:0 10px;
+    cursor:pointer;
+
+}
+#contact .container .follow_us {
+	position: absolute;
+	bottom: 5%;
+	right: 30%;
+}
+/* contact css end// */
